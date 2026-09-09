@@ -11,4 +11,34 @@ header{
 ul{ 
     display: flex; 
     gap: 30px;
+}   
+section{ 
+padding: 40px;  
+max-width: 400px; 
+}
+main{ 
+    display: flex; 
+    justify-content: center; 
+} 
+.conteudo{ 
+     max-width: 400px;
+}  
+.texto-estudante{ 
+    color: #0a2081;
+} 
+.botao-primario{ 
+    background-color: rgb(28, 28, 185); 
+    color:none ; 
+    border:8px ; 
+    padding:10px
+    
+
+} 
+.botao-segundario{ 
+    background-color: rgb(72, 72, 150); 
+    color:none ; 
+    border:8px ; 
+    padding: 10px;
+    border:
+
 }
