@@ -29,16 +29,43 @@ main{
 .botao-primario{ 
     background-color: rgb(28, 28, 185); 
     color:none ; 
-    border:8px ; 
-    padding:10px
+    border:none; 
+    border-radius: 8px;
     
 
 } 
-.botao-segundario{ 
-    background-color: rgb(72, 72, 150); 
-    color:none ; 
-    border:8px ; 
-    padding: 10px;
-    border:
+.botao-segundario{  
+    background-color: #0a2081; 
+    color: black; 
+    border:1px solid
+    padding: 8px;
+    border-radius: 8px 
+}  
+.secao-numeros{ 
+    background-color:rgb(7, 7, 82) 
+    display: flex;
+    justify-content: sppace-between;
+    align-items: center; 
+    border-radius: 48px; 
+    margin: 40px;
+} 
+.conteudo-numeros{ 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+} 
+.numero{ 
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0px;
+} 
+.texto{ 
+    font-size: 8px; 
+    margin: 14px;
+ }
+ 
 
-}
+
+
+
+ 
